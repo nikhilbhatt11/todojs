@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  background-color: #f5d4d6;
+}
+
+.container {
+  background-color: #f2545b;
+  min-height: 55vh;
+  width: 25vw;
+  border-radius: 0.5rem;
+}
+h1 {
+  margin-top: 1rem;
+  margin-left: 1.3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  height: 90%;
+}
+
+form input,
+button {
+  border: none;
+  outline: none;
+}
+
+input {
+  height: 2rem;
+  margin: 0 1rem 0 1rem;
+  border: 5px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+input::placeholder {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+label {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+
+.btn {
+  color: white;
+  background-color: #da344d;
+  width: 5rem;
+  height: 2rem;
+  line-height: 2rem;
+  margin: 0 0 0 1rem;
+  font-size: bold;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.list div {
+  background-color: #ffa9a3;
+  height: 3rem;
+  line-height: 3rem;
+  margin-top: 0.4rem;
+  font-size: 1.2rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+.istyle {
+  margin-top: 0.8rem;
+}
+
+.hiddendate {
+  display: none;
+}
